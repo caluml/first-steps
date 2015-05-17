@@ -1,5 +1,8 @@
 package chapter01;
 
+/**
+ * Introduction
+ */
 public class Main {
 
     {
@@ -24,6 +27,9 @@ public class Main {
 
         // A single equals sign assigns the value on the right to the value on the left. (e.g. int a = 2;)
         // A double equals sign is used for comparing
+        if (2 == 4) {
+            System.out.println("2 is equal to 4?!!"); // This wouldn't show
+        }
 
         /* You can use "if" to run different code. Only one of the statements will be run.
          * It'll be the first one that is "true", otherwise it'll be whatever's in the "else" section at the end (if there is one).*/
@@ -31,8 +37,6 @@ public class Main {
             System.out.println("Wow, you're really old");
         } else if (age > 50) {
             System.out.println("You're getting on a bit");
-        } else if (age == 40) {
-            System.out.println("Life's beginning!");
         } else {
             System.out.println("Plenty of life in you yet.");
         }

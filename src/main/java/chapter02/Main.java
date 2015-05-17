@@ -1,5 +1,8 @@
 package chapter02;
 
+/**
+ * Functions
+ */
 public class Main {
 
     {
