@@ -14,14 +14,15 @@ public class Main {
          * If you had 2 cats (called Fluffy and Smelly), you could store them like this: */
         String[] catNames = new String[2];
         // You can store values in the "slots" of the array.
-        catNames[0] = "Fluffy"; // This goes in the first slot. Note it goes from 0 to 4, and not 1 to 5.
-        catNames[1] = "Smelly"; // This will produce an error.
+        catNames[0] = "Fluffy"; // This goes in the first slot. Note it goes from 0 to 1, and not 1 to 2.
+        catNames[1] = "Cuddly"; // This goes in the second slot.
+        catNames[2] = "Smelly"; // This will produce an error.
 
         /* Arrays can store any type.
          * For instance, this would make an array of 5 "int"s */
         int[] numbers = new int[5];
         numbers[0] = 124;
-        numbers[5] = 813;
+        numbers[4] = 813;
 
         /* Arrays are simple and fast, but they have a problem: you can't resize them. If you need to "make it bigger",
          * you need to create a larger second array, and copy the value from the first into it. */
@@ -32,6 +33,8 @@ public class Main {
 
         /* Now imagine that you've made it too small. Create a second, large array, and copy the values from the first
          * into the second. */
+
+        /* Now write a function that takes an array of ints, and returns the maximum. */
     }
 
 
